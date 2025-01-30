@@ -1,4 +1,4 @@
-emailjs.init('service_9ghq4bl');  
+emailjs.init('yNSsXbUlIqUjXlnwh');  
 
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
@@ -9,7 +9,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     const mensaje = document.getElementById('mensaje').value;
 
 
-    emailjs.send('service_9ghq4bl', 'template_v20t8o8', {
+    emailjs.send('yNSsXbUlIqUjXlnwh', 'template_v20t8o8', {
         from_name: nombre,
         from_email: email,
         message: mensaje
