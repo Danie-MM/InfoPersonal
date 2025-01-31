@@ -12,11 +12,12 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     const mensaje = document.getElementById('mensaje').value;
 
 
-    emailjs.send('yNSsXbUlIqUjXlnwh', 'template_v20t8o8', {
-        from_name: nombre,
-        from_email: email,
-        message: mensaje
-    })
+    emailjs.send('service_9ghq4bl', 'template_v20t8o8', {
+    from_name: nombre,
+    from_email: email,
+    message: mensaje
+})
+        
     .then(function(response) {
         console.log('Success!', response);
         alert('Tu mensaje ha sido enviado con éxito!');
