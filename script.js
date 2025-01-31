@@ -1,7 +1,7 @@
 console.log("EmailJS script cargado:", emailjs);
 
 
-emailjs.init('yNSsXbUlIqUjXlnwh');  
+emailjs.init('RcDPW-uCNwZraTeYq');  
 
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
