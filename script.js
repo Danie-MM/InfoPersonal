@@ -1,3 +1,6 @@
+console.log("EmailJS script cargado:", emailjs);
+
+
 emailjs.init('yNSsXbUlIqUjXlnwh');  
 
 
